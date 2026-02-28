@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1772304450684,
+    "filename": "istockphoto-1443562748-612x612.jpg",
+    "ai_predictions": [
+      {
+        "className": "tabby, tabby cat",
+        "probability": 0.5110203623771667
+      },
+      {
+        "className": "tiger cat",
+        "probability": 0.29021337628364563
+      },
+      {
+        "className": "Egyptian cat",
+        "probability": 0.16511592268943787
+      }
+    ],
+    "analyzed_at": "2026-02-28T18:47:30.684Z"
+  },
+  {
+    "id": 1772305413044,
+    "filename": "istockphoto-1443562748-612x612.jpg",
+    "ai_predictions": [
+      {
+        "className": "tabby, tabby cat",
+        "probability": 0.5110203623771667
+      },
+      {
+        "className": "tiger cat",
+        "probability": 0.29021337628364563
+      },
+      {
+        "className": "Egyptian cat",
+        "probability": 0.16511592268943787
+      }
+    ],
+    "analyzed_at": "2026-02-28T19:03:33.044Z"
+  },
+  {
+    "id": 1772305549133,
+    "filename": "gambar-kucing.jpg",
+    "ai_predictions": [
+      {
+        "className": "tabby, tabby cat",
+        "probability": 0.5110203623771667
+      },
+      {
+        "className": "tiger cat",
+        "probability": 0.29021337628364563
+      },
+      {
+        "className": "Egyptian cat",
+        "probability": 0.16511592268943787
+      }
+    ],
+    "analyzed_at": "2026-02-28T19:05:49.133Z"
+  },
+  {
+    "id": 1772306423427,
+    "filename": "gambar-kucing.jpg",
+    "ai_predictions": [
+      {
+        "className": "tabby, tabby cat",
+        "probability": 0.5110203623771667
+      },
+      {
+        "className": "tiger cat",
+        "probability": 0.29021337628364563
+      },
+      {
+        "className": "Egyptian cat",
+        "probability": 0.16511592268943787
+      }
+    ],
+    "analyzed_at": "2026-02-28T19:20:23.427Z"
+  },
+  {
+    "id": 1772306658803,
+    "filename": "0712433_PE728846_S5.jpg",
+    "ai_predictions": [
+      {
+        "className": "beer glass",
+        "probability": 0.4629219174385071
+      },
+      {
+        "className": "vase",
+        "probability": 0.3044942319393158
+      },
+      {
+        "className": "cocktail shaker",
+        "probability": 0.1302821934223175
+      }
+    ],
+    "analyzed_at": "2026-02-28T19:24:18.803Z"
+  }
+]
