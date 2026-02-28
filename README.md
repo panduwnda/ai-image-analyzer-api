@@ -4,7 +4,9 @@ Sebuah proyek REST API yang mengintegrasikan Web Backend dengan Machine Learning
 
 ## 📸 Screenshot Aplikasi
 
-*(Hapus teks ini dan tekan Ctrl+V untuk mem-paste screenshot aplikasimu di sini)*
+<img width="1920" height="1978" alt="screencapture-localhost-3000-2026-03-01-02_06_01" src="https://github.com/user-attachments/assets/f394eb97-08ef-46c6-9107-0899a5e6320b" />
+<img width="1920" height="1347" alt="screencapture-localhost-3000-api-history-2026-03-01-03_50_54" src="https://github.com/user-attachments/assets/e70ee1be-02bb-4d6f-a82c-856ce5212603" />
+<img width="1920" height="885" alt="screencapture-localhost-3000-api-history-data-2026-03-01-03_51_05" src="https://github.com/user-attachments/assets/4e0a2760-4935-48f1-8ce9-fc019b28ea00" />
 
 ## 🚀 Tech Stack
 - **Backend:** Node.js, Express.js
