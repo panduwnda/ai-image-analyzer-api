@@ -41,3 +41,10 @@ Sebuah proyek REST API yang mengintegrasikan Web Backend dengan Machine Learning
    node server.js
    ```
 5. Buka `http://localhost:3000` di browser untuk menguji UI interaktifnya.
+
+## ☁️ Deployment Architecture (Cloud-Ready)
+Sistem ini dirancang dengan arsitektur *stateless* dan siap untuk di-deploy ke ekosistem Cloud (AWS / GCP / Azure). Rencana topologi deployment untuk *production* adalah sebagai berikut:
+- **IaaS (Infrastructure as a Service):** AWS EC2 atau GCP Compute Engine (Ubuntu Server 22.04 LTS).
+- **Process Manager:** Menggunakan **PM2** untuk menjalankan Node.js di *background* agar server AI tidak mati saat terminal ditutup.
+- **Web Server / Proxy:** Menggunakan **Nginx** sebagai *reverse proxy* untuk mem-forward *traffic* dari port 80 (HTTP) ke port 3000 (Node.js).
+- **Storage:** Memisahkan media penyimpanan gambar ke AWS S3 atau Google Cloud Storage agar beban komputasi server utama tetap ringan.
