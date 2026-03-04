@@ -113,7 +113,7 @@ app.get("/api/history/data", (req, res) => {
   res.json({ status: "success", total_data: dbData.length, data: dbData });
 });
 
-// ROUTE UI: Halaman History dengan UI Memukau + Akses JSON Mentah
+// ROUTE UI: Halaman History dengan UI + Akses JSON Mentah
 app.get("/api/history", (req, res) => {
   res.send(`
     <!DOCTYPE html>
@@ -334,7 +334,7 @@ app.get("/api/history", (req, res) => {
   `);
 });
 
-// UI MEMUKAU DENGAN TAILWIND CSS (HALAMAN UTAMA)
+// UI (HALAMAN UTAMA)
 app.get("/", (req, res) => {
   res.send(`
     <!DOCTYPE html>
